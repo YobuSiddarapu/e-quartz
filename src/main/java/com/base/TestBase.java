@@ -76,7 +76,7 @@ public class TestBase {
 			driver.manage().timeouts().pageLoadTimeout(45,TimeUnit.SECONDS);
 			driver.get(prop.getProperty("url"));
 			driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
-			driver.manage().deleteAllCookies();
+			//driver.manage().deleteAllCookies();
 			extentreports.flush();
 
 		
